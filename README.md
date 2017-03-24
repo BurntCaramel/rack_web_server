@@ -24,4 +24,7 @@ ruby server_03_status.rb
 
 # Handles trailing slash redirects
 ruby server_04_redirect.rb
+
+# Handles static files from public
+ruby server_05_files.rb
 ```
