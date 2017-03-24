@@ -6,11 +6,14 @@ gem install bundler
 
 - http://bundler.io/
 
-*Gemfile*
+## Gemfile
+
 ```
 source 'https://rubygems.org'
 gem 'rack', '~> 2.0.1'
 ```
+
+## Running
 
 ```
 # Only has one response for all requests
