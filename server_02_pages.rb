@@ -15,11 +15,11 @@ class App
   end
 
   def not_found_content
-    return 'Not Found'
+    'Not Found'
   end
 
   def call(env)
-    method = env['REQUEST_METHOD']
+    #method = env['REQUEST_METHOD']
     path = env['REQUEST_PATH']
     content = content_for_path(path)
     [200, {}, [content]]
