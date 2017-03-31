@@ -15,6 +15,12 @@ class App
       '/contact' => {
         statusCode: 200,
         html: 'You can contact me by the methods below'
+      },
+      '/emailme' => {
+        statusCode: 302,
+        headers: {
+          'Location' => '/contact'
+        }
       }
     }
   end
